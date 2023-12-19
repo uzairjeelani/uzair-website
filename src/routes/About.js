@@ -14,7 +14,6 @@ function About() {
     textarea.style.position = 'fixed';
     textarea.style.opacity = 0;
   
-    // Appends the textarea to the document
     document.body.appendChild(textarea);
   
     // Focuses and select the text inside the textarea
