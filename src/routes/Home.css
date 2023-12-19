@@ -1,0 +1,31 @@
+.home {
+    padding: 30px;
+    text-align: center;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    margin: 20px;
+    max-width: calc(50% - 20px);
+}
+
+.image-text-container {
+    text-align: center;
+    font-size: 24px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #000000;
+}
+
+p {
+    margin-top: 10px;
+}

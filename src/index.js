@@ -11,6 +11,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Projects from "./routes/Projects";
 import Navbar from "./components/Navbar";
+import ErrorPage from "./routes/ErrorPage";
 
 const AppLayout = () => {
     return (
@@ -24,6 +25,7 @@ const AppLayout = () => {
 const router = createBrowserRouter([
     {
         element: <AppLayout />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: "/",
