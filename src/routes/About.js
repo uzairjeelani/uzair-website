@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import "./About.css";
-
+//
 function About() {
   const handleEmailClick = () => {
     const email = 'uzairjeelani@gmail.com';
