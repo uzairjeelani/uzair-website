@@ -154,8 +154,10 @@
 @media screen and (max-width: 600px) {
   .navbar-logo {
     position: relative; /* Change to relative positioning for smaller screens */
+    left: 0; /* Reset the left value for smaller screens */
     transform: translateY(0); /* Reset the transform for smaller screens */
     text-align: center; /* Center the text */
-    left: 80px;
+    margin-left: auto; /* Add margin-left: auto; for horizontal centering */
+    margin-right: auto; /* Add margin-right: auto; for horizontal centering */
   }
 }
