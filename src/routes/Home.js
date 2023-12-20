@@ -1,11 +1,11 @@
 import React from "react";
 import "./Home.css";
-import AboutImg from "/Users/uzairjeel/Downloads/uzair-navbar2/src/parrots.png";
-import AboutImg2 from "/Users/uzairjeel/Downloads/uzair-navbar2/src/fam.png";
-import AboutImg3 from "/Users/uzairjeel/Downloads/uzair-navbar2/src/flag.png";
-import AboutImg4 from "/Users/uzairjeel/Downloads/uzair-navbar2/src/water.png";
-import AboutImg5 from "/Users/uzairjeel/Downloads/uzair-navbar2/src/miami.png";
-import AboutImg6 from "/Users/uzairjeel/Downloads/uzair-navbar2/src/biryani.png";
+import AboutImg from "../assets/parrots.png";
+import AboutImg2 from "../assets/fam.png";
+import AboutImg3 from "../assets/flag.png";
+import AboutImg4 from "../assets/water.png";
+import AboutImg5 from "../assets/miami.png";
+import AboutImg6 from "../assets/biryani.png";
 function Home() {
   return (
     <div className="home">
