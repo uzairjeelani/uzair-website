@@ -34,12 +34,15 @@
 
 .navbar-logo {
   color: #fff;
-  justify-self: start;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust the left value based on your design */
+  transform: translateY(-50%);
 }
 
 .navbar-icon {
@@ -145,5 +148,14 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-logo {
+    position: relative; /* Change to relative positioning for smaller screens */
+    transform: translateY(0); /* Reset the transform for smaller screens */
+    text-align: center; /* Center the text */
+    left: 70px;
   }
 }
