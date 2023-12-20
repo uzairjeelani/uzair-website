@@ -10,7 +10,6 @@ function About() {
     const textarea = document.createElement('textarea');
     textarea.value = email;
   
-    // Sets the textarea to be invisible
     textarea.style.position = 'fixed';
     textarea.style.opacity = 0;
   
