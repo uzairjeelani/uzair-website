@@ -17,7 +17,7 @@ function Navbar() {
         <IconContext.Provider value={{color: "#fff"}}>
         <nav className="navbar">
             <div className="navbar-container container">
-                <Link to="/" class="navbar-logo">
+                <Link to="/" className="navbar-logo">
                     Uzair Jeelani
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
