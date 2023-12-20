@@ -1,5 +1,3 @@
-/* About.css */
-
 .about {
     padding: 20px;
   }
@@ -118,4 +116,10 @@
     animation: rainbowEffect 2s infinite; /* Darker background on hover */
   }
 
-  
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
