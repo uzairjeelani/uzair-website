@@ -156,6 +156,6 @@
     position: relative; /* Change to relative positioning for smaller screens */
     transform: translateY(0); /* Reset the transform for smaller screens */
     text-align: center; /* Center the text */
-    left: 70px;
+    left: 80px;
   }
 }
