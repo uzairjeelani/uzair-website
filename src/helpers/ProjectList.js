@@ -3,6 +3,7 @@ import Project2 from "../assets/store.png";
 import Project3 from "../assets/trivia.png";
 import Project4 from "../assets/stopwatch.png";
 import Project5 from "../assets/prayers.png";
+import Project6 from "../assets/campus.png";
 export const ProjectList = [
   {
     name: "Language Translator",
@@ -33,5 +34,11 @@ export const ProjectList = [
     image: Project5,
     skills: "JavaScript,HTML,CSS",
     linkToPage: "https://prayers-uzair.s3.us-east-2.amazonaws.com/prayers/index.html",
+  },
+{
+    name: "UNCC Campus",
+    image: Project6,
+    skills: "JavaScript,HTML,CSS",
+    linkToPage: "https://campus-uzair.s3.us-east-2.amazonaws.com/campus/carousel.html",
   },
 ];
