@@ -29,3 +29,33 @@ img {
 p {
     margin-top: 10px;
 }
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .home {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .portfolio-item {
+        max-width: 100%; /* Make portfolio items full-width on smaller screens */
+    }
+
+    .image-text-container {
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+}
+
+/* Media Query for Medium-Sized Screens (e.g., half-width laptop screens) */
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+    .home {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .portfolio-item {
+        max-width: 100%; /* Make portfolio items full-width on smaller screens */
+    }
+
+    .image-text-container {
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+  }

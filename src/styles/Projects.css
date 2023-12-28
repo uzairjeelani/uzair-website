@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 15px;
   }
   .projects .projectTitle {
     text-align: center;
@@ -53,6 +54,9 @@
   }
   
   @media only screen and (max-width: 1300px) {
+    .projects {
+      padding: 15px;
+    }
     .projectList {
       grid-template-columns: 1fr 1fr;
     }
