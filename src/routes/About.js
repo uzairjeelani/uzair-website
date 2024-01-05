@@ -54,7 +54,7 @@ function About() {
             occupied with some sort of work or project.
           </p>
           <button className="cv-button">
-          <a href="https://drive.google.com/file/d/1AafQBvN_xikLFpiEcIEkEuZGqjGm7xr2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/11RZ_YCSmsJHNf6pHPh1Ze0bwZ_Nyiy0a/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               Download CV
             </a>
           </button>
