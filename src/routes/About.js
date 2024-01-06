@@ -55,7 +55,7 @@ function About() {
           </p>
           <button className="cv-button">
           <a href="https://drive.google.com/file/d/11RZ_YCSmsJHNf6pHPh1Ze0bwZ_Nyiy0a/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-              Download CV
+              Resume
             </a>
           </button>
         </div>
