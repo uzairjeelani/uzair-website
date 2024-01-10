@@ -53,11 +53,11 @@ function About() {
             most likely be working out, hanging out with my friends, or keeping myself
             occupied with some sort of work or project.
           </p>
-          <button className="cv-button">
           <a href="https://drive.google.com/file/d/11RZ_YCSmsJHNf6pHPh1Ze0bwZ_Nyiy0a/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <button className="cv-button">
               Resume
-            </a>
           </button>
+          </a>
         </div>
         <div className="education">
           <h2>Education</h2>
