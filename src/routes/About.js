@@ -38,14 +38,12 @@ function About() {
         <div className="personal-info">
           <h2>Introduction</h2>
           <p>
-            I am from Gastonia, North Carolina and I am currently enrolled at
-            The University of North Carolina at Charlotte majoring in Computer Science.
+            I am from Charlotte, North Carolina and am a computer science graduate from the University of North Carolina at Charlotte.
           </p>
           <p>
-          I discovered my passion for computer science during my sophomore year of college and instantly 
-          came to the conclusion that getting into the technology space was for me. As I embarked on creating small projects using 
-          HTML, CSS, and JavaScript, witnessing my ideas and hard work come to life solidified 
-          my commitment to pursuing a computer science degree.
+          I discovered my passion for computer science early on in my academic college career and immediately knew that a career in
+          technology was my calling. As I delved into creating projects and mastering full stack development and cloud
+          computing, watching my ideas and hard work materialize cemented my commitment to pursuing a computer science degree.
           </p>
           <p>
             Every day I strive to show the greatest part of who I am. I enjoy
@@ -61,10 +59,11 @@ function About() {
         </div>
         <div className="education">
           <h2>Education</h2>
-          <p>Associates Degree - Central Piedmont Community College</p>
-          <p>Bachelors Degree - University of North Carolina at Charlotte</p>
-          <p>Current Major GPA: 3.93/4.0</p>
-          <p>4x Chancellors list</p>
+          <p>Bachelors Degree: University of North Carolina at Charlotte - May 2024</p>
+          <p>Major: Computer Science</p>
+          <p>Magna Cum Laude Graduate</p>
+          <p>GPA: 3.77/4.0</p>
+          <p>3x Chancellors list</p>
         </div>
         <div className="skills">
           <h2>My Skills</h2>
@@ -76,60 +75,59 @@ function About() {
               <li>- JavaScript</li>
               <li>- Java</li>
               <li>- Python</li>
+              <li>- C#</li>
               <li>- SQL</li>
               <li>- R</li>
             </ul>
           </div>
           <div className="skill-category">
-            <p>Softwares/Databases</p>
+            <p>Tools</p>
             <ul>
-              <li>- Adobe</li>
               <li>- AWS</li>
-              <li>- Microsoft Office</li>
-              <li>- MySQL</li>
-              <li>- Oracle</li>
+              <li>- Pandas</li>
+              <li>- React</li>
+              <li>- Angular</li>
+              <li>- Node.js</li>
             </ul>
           </div>
           <div className="skill-category">
-            <p>Soft Skills</p>
+            <p>Data Visualizations</p>
             <ul>
-              <li>- Adaptability</li>
-              <li>- Leadership</li>
-              <li>- Problem Solving</li>
-              <li>- Strong Work Ethic</li>
+              <li>- Tableau</li>
+              <li>- Power BI</li>
             </ul>
           </div>
         </div>
         <div className="experiences">
           <h2>Experience</h2>
-          <div className="experience-item">
-  <h3>Verizon Wireless Corporate</h3>
-  <p>April 2021 - July 2022</p>
-  <p>Sales Representative/Specialist</p>
-  <ul>
-    <li>
-      - Troubleshooting technology specialist for tablets and mobile devices, 
-      including Apple and Android products.
-    </li>
-    <li>
-      - Achieved Salesman of the Month in the third month, 
-      exceeding multiple sales target categories.
-    </li>
-  </ul>
-</div>
 <div className="experience-item">
   <h3>AT&T</h3>
   <p>August 2022 - January 2023</p>
   <p>IHX Field Sales Executive</p>
   <ul>
     <li>
-      - Provided the highest level of management 
-      white-glove service for all software sales.
+      - Employed strong communication and thinking skills 
+      to gain control of interactions and close deals.
     </li>
     <li>
-      - Demonstrated strong sales skills with a proven 
-      track record of driving sales growth and implementing 
-      new business tactics.
+      - Exceeded 30+ new lines in the first month of 
+      employment and provided the highest level of 
+      management white-glove service for all software sales.
+    </li>
+  </ul>
+</div>
+<div className="experience-item">
+  <h3>Verizon Wireless Corporate</h3>
+  <p>April 2021 - July 2022</p>
+  <p>Sales Representative/Specialist</p>
+  <ul>
+    <li>
+      - Demonstrated outstanding ability to 
+      multitask and work independently or as part of a team.
+    </li>
+    <li>
+      - Salesman of the month in the third month of employment 
+      and exceeding multiple sales target categories.
     </li>
   </ul>
 </div>
