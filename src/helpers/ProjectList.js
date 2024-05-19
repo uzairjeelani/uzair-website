@@ -1,9 +1,9 @@
 import Project1 from "../assets/language.png";
 import Project2 from "../assets/store.png";
-import Project3 from "../assets/trivia.png";
+import Project3 from "../assets/tableau.png";
 import Project4 from "../assets/stopwatch.png";
 import Project5 from "../assets/prayers.png";
-import Project6 from "../assets/campus.png";
+import Project6 from "../assets/agile.png";
 export const ProjectList = [
   {
     name: "Language Translator",
@@ -18,10 +18,10 @@ export const ProjectList = [
     linkToPage: "https://ecommerce-uzair.s3.us-east-2.amazonaws.com/ecommerce/index.html",
   },
 {
-    name: "Niner Trivia Game",
+    name: "Data Careers Dashboard",
     image: Project3,
     skills: "JavaScript,HTML,CSS",
-    linkToPage: "https://webpages.charlotte.edu/ujeelani/itis3135/lab9/index.html",
+    linkToPage: "https://public.tableau.com/app/profile/uzair.jeelani/viz/IndividualTableau_17105550405870/GlobalDataCareers",
   },
 {
     name: "Stop Watch",
@@ -36,9 +36,9 @@ export const ProjectList = [
     linkToPage: "https://prayers-uzair.s3.us-east-2.amazonaws.com/prayers/index.html",
   },
 {
-    name: "UNCC Campus",
+    name: "Agile Blog Posts",
     image: Project6,
     skills: "JavaScript,HTML,CSS",
-    linkToPage: "https://campus-uzair.s3.us-east-2.amazonaws.com/campus/carousel.html",
+    linkToPage: "https://adunny.wixsite.com/planet-agile",
   },
 ];
