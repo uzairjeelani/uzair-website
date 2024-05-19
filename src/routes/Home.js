@@ -9,7 +9,7 @@ import AboutImg6 from "../assets/biryani.png";
 function Home() {
   return (
     <div className="home">
-      <h1>Welcome to my Portfolio Page!</h1>
+      <h1 className="portfolio-title">Welcome to my Portfolio Page!</h1>
       <section className="portfolio">
         <div className="portfolio-item">
           <div className="image-text-container">
